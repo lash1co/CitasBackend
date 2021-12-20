@@ -14,9 +14,9 @@ namespace NotificacionWebService
     // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione notificacion.svc o notificacion.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class notificacion : Inotificacion
     {
-        const string API_KEY = "SG.uCxrN_OHQ_yHOQd-vwCnmw.dWVln1UdZgQAxfL3Mr5RxCOOWAMSFmmU-KZtGrvHxmU";
-        const string HASH = "MicroServicios";
-        public string Email_From = "lash1co@gmail.com";
+        const string API_KEY = "Tu_Api_Key";
+        const string HASH = "Tu_Hash_privado";
+        public string Email_From = "tu_correo@dominio.com";
         public async Task<string> NotificarAsync(Modelnotificacion notificacion)
         {
             string resultado = "KO";
